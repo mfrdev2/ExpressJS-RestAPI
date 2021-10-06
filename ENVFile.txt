@@ -1,0 +1,26 @@
+crate file into root folder
+============================
+.env                         //secret hidden file. only for devloper and uses for private data like 
+                              http port,databaseURL,API ke etc.
+Assign rules:
+---------------
+PORT = 32654541
+DATABASE_URL = jdbc:...................
+
+comment #:
+==============
+#this is comment
+
+install process:
+------------------
+npm install dotenv;
+
+access procedures:
+----------------------
+require('dotenv').config();
+
+const port = process.env.PORT
+
+Extension for syntax highlighting:
+====================================
+DotENV Extension 
